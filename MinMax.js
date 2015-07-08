@@ -2,10 +2,11 @@ function findMinMax (num){
     var min = num[0];
     var max = num[0];
     
-for (var i = 1; i <num.length; i++){
+for (var i = 1; i <=num.length; i++){
     if (min > num[i]){
            min = num[i];
-    }else if (max < num[i]){
+    }
+     if (max < num[i]){
         max = num[i];
         
     }
